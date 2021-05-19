@@ -6,8 +6,8 @@ io.on('connection', () => {
     client.on('disconnect', () => { /* … */ }); 
     console.log(client.id)
 });
-server.listen(3000);
-console.log("sever post 3000")
+server.listen(3123);
+console.log("sever post 3123")
 
 app.get('/getDataSearch',function(req,res){
 
